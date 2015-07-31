@@ -799,6 +799,8 @@ border-radius: 4px;}
 -moz-border-radius: 4px;
 border-radius: 4px; display:block;}
 
+.searchButton a:hover { background:#dc3e00;}
+
 .TourofSearch { border:4px double #dadada; margin:49px 0 0 0; padding:0px 0 17px 0 ;}
 .TourofSearch h3 { background:#337ed1;  font-family: 'Droid Sans', sans-serif !important;   font-size: 18px; font-weight: bold; color:#fff !important; text-indent: 3px; padding:10px; margin:0px!important;}
 .TourofSearch p { font-size:14px; color:#606060; font-weight:normal; padding:15px; margin:0px;}

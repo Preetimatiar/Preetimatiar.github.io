@@ -1,112 +1,216 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
-    <!--[if lt IE 9]>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+<link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+<link rel="stylesheet" href="stylesheets/responsive-tabs.css">
+<!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <title>Preetimatiar.GitHub.io by Preetimatiar</title>
-  </head>
-
-  <body>
-    <header>
-    	
-        <div class="topblack">
-        	<ul>
-            	<li><a href="#"><span>Ambry </span></a></li>
-                <li><a href="#">Search </a></li>
-                <li><a href="#">Datasets </a></li>
-                <li><a href="#">Collections </a></li>
-            </ul>
-            <div class="clearfix"></div>
+<title>Preetimatiar.GitHub.io by Preetimatiar</title>
+</head>
+<body>
+<header>
+  <div class="topblack">
+    <ul>
+      <li><a href="#"><span>Ambry </span></a></li>
+      <li><a href="#">Search </a></li>
+      <li><a href="#">Datasets </a></li>
+      <li><a href="#">Collections </a></li>
+    </ul>
+    <div class="clearfix"></div>
+  </div>
+  <div class="inner">
+    <h1>Civic Knowledge Datasets</h1>
+  </div>
+</header>
+<div id="content-wrapper">
+<div class="inner clearfix">
+  <section id="main-content">
+  <!-- Heading style starts here-->
+  <div class="DatasetHeadstyle">
+    <h2><span>2012 SMART BRFSS</span> County Data and Documentation</h2>
+    <!-- conetent starts here-->
+    <p>Dataset cdc.gov-brfss-county-0.0.4~d03G004. <a href="http://data.civicknowledge.com/bundles/d03G004/schema.html" target="_blank">Schema</a></p>
+    <p>The Selected Metropolitan/Micropolitan Area Risk Trends (SMART) project uses the Behavioral Risk Factor Surveillance System (BRFSS) to analyze the data of selected metropolitan and micropolitan statistical areas (MMSAs) with 500 or more respondents. BRFSS data can be used to identify emerging health problems, establish and track health objectives, and develop and evaluate public health policies and programs.</p>
+    <!-- conetent ends here-->
+  </div>
+  <!-- Heading style ends here-->
+  <!-- Tabler SECTION starts here-->
+  <div class="TablerSection">
+    <!-- TAB CODE starts here-->
+    <div class="responsive-tabs">
+      <h2>About</h2>
+      <div class="Tabsinner">
+        <!-- About Section starts here-->
+        <div class="TabsContentSection">
+          <h3><span>External</span> Documentation</h3>
+          <!-- Table section starts here-->
+          <table  border="1">
+            <tr>
+              <td><a href="http://www.cdc.gov/brfss/annual_data/2013/pdf/CODEBOOK13_LLCP.pdf" target="_blank">BRFSS Codebook</a></td>
+              <td>A Data Dictionary and codebook for the 2012 BRFSS</td>
+            </tr>
+            <tr>
+              <td><a href="http://www.cdc.gov/brfss/smart/smart_2012.html" target="_blank">Download Page</a></td>
+              <td>Web page that links to the source files.</td>
+            </tr>
+            <tr>
+              <td><a href="http://www.cdc.gov/brfss/smart/smart_faq.htm" target="_blank">Frequently Asked Questions</a></td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td><a href="http://www.cdc.gov/brfss/smart/smart_data.htm" target="_blank">SMART BRFSS City and County Data and Documentation</a></td>
+              <td>SMART dataset page.</td>
+            </tr>
+          </table>
+          <h3>Contacts</h3>
+          <!-- Table section starts here-->
+          <table  border="1">
+            <tr>
+              <td>Bundle Creator</td>
+              <td><a href="mailto:eric@sandiegodata.org">Eric Busboom</a> , <a href="www.sandiegodata.org" target="_blank">http://www.sandiegodata.org</a></td>
+            </tr>
+            <tr>
+              <td>Bundle Maintainer</td>
+              <td><a href="mailto:eric@sandiegodata.org"> Eric Busboom </a>, <a href="www.sandiegodata.org" target="_blank">http://www.sandiegodata.org</a> </td>
+            </tr>
+          </table>
+          <h3>2012 SMART BRFSS County Data and Documentation</h3>
+          <p>The Selected Metropolitan/Micropolitan Area Risk Trends (SMART) project uses the Behavioral Risk Factor Surveillance System (BRFSS) to analyze the data of selected metropolitan and micropolitan statistical areas (MMSAs) with 500 or more respondents. BRFSS data can be used to identify emerging health problems, establish and track health objectives, and develop and evaluate public health policies and programs.</p>
+          <h3>Data Conversion</h3>
+          <p>This conversion of the BRFSS County data converts the PERIOD '.' character in the ASCII file to a NULL.</p>
+          <h3>Errors</h3>
+          <p>One record, seqno == 2012001899, has an illegal value for mrace, of '9 8 '. The record has been retained, but with the mrace value set to NULL. </p>
+          <h3>Caveats</h3>
+          <p>The county data is based on the BRFSS MSSA structure, and the BRFSS is based on a sample of the population, so not all counties have data. As noted in the dataset FAQ, <a href="http://www.cdc.gov/brfss/smart/smart_faq.htm#5" target="_blank">some counties did not have enough responses in all of the sample classes</a> to produce an estimate for the county. </p>
+          <h3>Sources</h3>
+          <table  border="1">
+            <tr>
+              <td>Variables</td>
+              <td>&nbsp;</td>
+              <td><a href="http://www.cdc.gov/brfss/smart/2012/CNTY_VarLayout_12.pdf" target="_blank">http://www.cdc.gov/brfss/smart/2012/CNTY_VarLayout_12.pdf</a></td>
+            </tr>
+            <tr>
+              <td>Brfss_county</td>
+              <td>Fixed Width source file for the data.</td>
+              <td><a href="www.cdc.gov/brfss/smart/2012/CNTY12ASC.zip" target="_blank">http://www.cdc.gov/brfss/smart/2012/CNTY12ASC.zip</a></td>
+            </tr>
+            <tr>
+              <td>Cnty2_sasout</td>
+              <td>SAS program with the names of variables and their posistions inthe source file.</td>
+              <td><a href="http://www.cdc.gov/brfss/smart/2012/CNTY12_SASOUT.SAS" target="_blank">http://www.cdc.gov/brfss/smart/2012/CNTY12_SASOUT.SAS</a></td>
+            </tr>
+          </table>
+          <!-- Table section ends here-->
         </div>
-        
-      <div class="inner">
-        <h1>Civic Knowledge Data Search</h1>
-        
+        <!-- About Section ends here-->
       </div>
-    </header>
-
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-
-
-	<!-- section bar starts here-->
-    	<div class="searchBar">
-        	<input type="text" class="input1">
+      <!-- Data Files section starts here-->
+      <h2>Data files</h2>
+      <div class="Tabsinner">
+        <div class="TabsContentSection">
+          <h3>Data Files</h3>
         </div>
-        <div class="searchButton"><a href="#">Search</a></div>
-    <!-- section bar ends here-->
-    
-    <!-- Tour section starts here-->
-    	<div class="clearfix"></div>
-        
-        <div class="TourofSearch">
-        
-<h3>Tour of the Interface</h3>
-        
-        <p>The searchbox recognizes a few special search terms for tailoring your search. They are all short English words, and you'll probably use them without even knowing about them. </p>
-        
-        <div class="TourSection">
-        	<div class="TourofSearchleft"><p>None</p></div>
-            <div class="TourofSearchright"><p>    With no special term, the text searches for the subject of the dataset "births" or "immunization". This is usually the first word or words in a search.</p></div>
-              <div class="clearfix"></div>
+        <!-- section bar starts here-->
+        <div class="searchBarDatafiles">
+          <input type="text" class="input1">
         </div>
-        
-        
-          <div class="TourSection">
-        	<div class="TourofSearchleft"><p>In</p></div>
-            <div class="TourofSearchright"><p>Find data in a greographic area. "births in San Diego California"</p></div>
-             <div class="clearfix"></div>
-        </div>        
-       
-        
-          <div class="TourSection">
-        	<div class="TourofSearchleft"><p>from and to</p></div>
-            <div class="TourofSearchright"><p>Find data within a time period of years. "births from 2005 to 2010" or "births from 2005"</p></div>
-              <div class="clearfix"></div>
-        </div>
-      
-        
-         <div class="TourSection">
-        	<div class="TourofSearchleft"><p>with</p></div>
-            <div class="TourofSearchright"><p>Search the data dictionary for a variable name or description. "immunization with exemption"</p></div>
-            <div class="clearfix"></div>
-        </div>
-        
-        
-          <div class="TourSection">
-        	<div class="TourofSearchleft"><p>source</p></div>
-            <div class="TourofSearchright"><p>Specify a data source, using part of its domain name. "with hospice source cdph"</p></div>
-            <div class="clearfix"></div>
-        </div>
-        
-
-
+        <div class="searchButtonData"><a href="#">Search</a></div>
+        <!-- section bar ends here-->
         <div class="clearfix"></div>
-        
-        </div>
-        
-    <!-- Tour section ends here-->
-
-
-
-
-        </section>
-
-       
+        <!-- table section starts here-->
+        <table border="1">
+          <tr>
+            <th>id</th>
+            <th>Name</th>
+            <th>Table</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td><a href="http://data.civicknowledge.com/bundles/d03G004/partitions/p03G001004.html" target="_blank">p03G001004</a></td>
+            <td>cdc.gov-brfss-county-brfss_county</td>
+            <td>brfss_county</td>
+            <td>2012 BRFSS County</td>
+          </tr>
+        </table>
+        <!-- table section ends here-->
+        <div class="clearfix"></div>
       </div>
+      <!-- Data Files section ends here-->
+      <!-- Tables starting starts here-->
+      <h2>Tables</h2>
+      <div class="Tabsinner">
+        <div class="TabsContentSection">
+          <h3>Tables</h3>
+        </div>
+        <!-- table section starts here-->
+        <table  border="1">
+          <tr>
+            <th>id</th>
+            <th>Name</th>
+            <th>Table</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td><a href="http://data.civicknowledge.com/bundles/d03G004/partitions/p03G001004.html" target="_blank">p03G001004</a></td>
+            <td>cdc.gov-brfss-county-brfss_county</td>
+            <td>brfss_county</td>
+            <td>2012 BRFSS County</td>
+          </tr>
+        </table>
+        <!-- table section ends here-->
+      </div>
+      <!-- Tables starting Ends here-->
+      <!-- Public Class starts here-->
+      <h2>Build</h2>
+      <div class="Tabsinner">
+        <!-- table section starts here-->
+        <div class="TabsContentSection">
+          <h3>Build Information</h3>
+          <table border="1">
+            <tr>
+              <td>Build Date</td>
+              <td>2015-04-30T15:39:59.601932</td>
+            </tr>
+            <tr>
+              <td>Build Time</td>
+              <td>2 minutes ( 142.001211166 s)</td>
+            </tr>
+          </table>
+          <h3>Dependencies</h3>
+          <table  border="1">
+            <tr>
+              <td>Key</td>
+              <td>As Declared</td>
+              <td>As Resolved</td>
+            </tr>
+            <tr>
+              <td>counties</td>
+              <td>census.gov-index-counties</td>
+              <td><a href="http://data.civicknowledge.com/bundles/d03x003/partitions/p03x002003.html" target="_blank">census.gov-index-counties-0.0.3</a></td>
+            </tr>
+          </table>
+        </div>
+        <!-- table section ends here-->
+      </div>
+      <!-- Public Class ends here-->
     </div>
-
-  
-  </body>
+    <!-- Tabler SECTION ends here-->
+    </section>
+  </div>
+</div>
+<script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+<script src="javascripts/responsiveTabs.js"></script>
+<script>
+$(document).ready(function() {
+	RESPONSIVEUI.responsiveTabs();
+})
+</script>
+</body>
 </html>

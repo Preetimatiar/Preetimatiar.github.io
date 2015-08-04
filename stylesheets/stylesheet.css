@@ -422,15 +422,7 @@ optgroup {
  * Remove most spacing between table cells.
  */
 
-table {
-  border-spacing: 0;
-  border-collapse: collapse;
-}
 
-td,
-th {
-  padding: 0;
-}
 
 /* LAYOUT STYLES */
 body {
@@ -595,20 +587,6 @@ hr {
   border-top: solid 1px #ddd;
 }
 
-table {
-  width: 100%;
-  border: 1px solid #ebebeb;
-}
-
-th {
-  font-weight: 500;
-}
-
-td {
-  font-weight: 300;
-  text-align: center;
-  border: 1px solid #ebebeb;
-}
 
 form {
   padding: 20px;
@@ -841,16 +819,16 @@ border-radius: 4px; display:block;}
 table tr:nth-child(odd) {
    background-color: #f7f7f7;
 }
-table { margin:25px 0 0 0; padding:0px;}
-table td { padding:10px; text-align:left;}
+table { margin:25px 0 0 0; padding:0px; width:100%; border:1px solid #d6d6d6; border-top:none; border-right:none;}
+table td { padding:10px; text-align:left; border-top:1px solid #d6d6d6; border-right: 1px solid #d6d6d6;}
 table td a { color:#367ed2; text-decoration:none; font-size:14px; }
 
-table th{ background:#327dd0; color:#fff; padding:10px; text-align:left;}
+table th{ background:#327dd0; color:#fff; padding:10px; text-align:left; border-right:1px solid #d6d6d6;}
 
 
-.searchBarDatafiles {float:left; margin:30px 0 0 0; padding:0px;}
+.searchBarDatafiles {float:left; margin:30px 0 0 0; padding:0px; }
 
-.searchBarDatafiles .input1 { background:#fff; border:1px solid #cdcdcd; padding:5px;  width:702px; height:31px; -webkit-box-shadow: inset -1px 1px 5px 0px rgba(227,227,227,1);
+.searchBarDatafiles .input2 { background:#fff; border:1px solid #cdcdcd; padding:5px;  width:702px; height:31px; -webkit-box-shadow: inset -1px 1px 5px 0px rgba(227,227,227,1);
 -moz-box-shadow: inset -1px 1px 5px 0px rgba(227,227,227,1);
 box-shadow: inset -1px 1px 5px 0px rgba(227,227,227,1);
 -webkit-border-radius: 4px;
@@ -863,6 +841,7 @@ border-radius: 4px;}
 border-radius: 4px; display:block;}
 
 .searchButtonData a:hover { background:#dc3e00;}
+.tableResponsive { margin:0px; padding:0px;}
 
 /*==============================================Dataset page ends here======================================================*/
 
@@ -912,6 +891,10 @@ border-radius: 4px; display:block;}
 .TourofSearchleft { margin:0px; width:96%;}
 .TourofSearchright { width:96%;}
 header h1 { font-size:37px;}
+.searchBarDatafiles { float:none;}
+.searchBarDatafiles .input2 { width:97%;}
+.searchButtonData { float:none; margin:14px 0 0 0; width:99%;}
+.searchButtonData a { margin:0px;}
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -987,6 +970,12 @@ header h1 { font-size:37px;}
 .TourofSearchleft { margin:0px; width:96%;}
 .TourofSearchright { width:96%;}
 header h1 { font-size:37px;}
+.tableResponsive { width:100%; overflow-x:auto;}
+.searchBarDatafiles { float:none;}
+.searchBarDatafiles .input2 { width:97%;}
+.searchButtonData { float:none; margin:14px 0 0 0;}
+.searchButtonData a { margin:0px;}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -995,9 +984,19 @@ header h1 { font-size:37px;}
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
 .topblack ul li a { margin:13px 0 13px 10px;}
+.tableResponsive { width:100%; overflow-x:auto;}
+.searchBarDatafiles { float:none;}
+.searchBarDatafiles .input2 { width:97%;}
+.searchButtonData { float:none; margin:14px 0 0 0;}
+.searchButtonData a { margin:0px;}
  }
 
 @media only screen and (max-width: 320px) {
 .topblack ul li a { margin:13px 0 13px 10px;}
+.tableResponsive { width:100%; overflow-x:auto;}
+.searchBarDatafiles { float:none;}
+.searchBarDatafiles .input2 { width:97%;}
+.searchButtonData { float:none; margin:14px 0 0 0;}
+.searchButtonData a { margin:0px;}
  }
 

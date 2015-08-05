@@ -454,7 +454,7 @@ header {
 }
 
 header h1 {
-  width: 540px;
+  /*width: 540px;*/
   margin-top: 0;
   margin-bottom: 0.2em;
   font-size: 41px;
@@ -820,10 +820,10 @@ table tr:nth-child(odd) {
    background-color: #f7f7f7;
 }
 table { margin:25px 0 0 0; padding:0px; width:100%; border:1px solid #d6d6d6; border-top:none; border-right:none;}
-table td { padding:10px; text-align:left; border-top:1px solid #d6d6d6; border-right: 1px solid #d6d6d6;}
+table td { padding:10px; text-align:left; border-top:1px solid #d6d6d6; border-right: 1px solid #d6d6d6; vertical-align:top;}
 table td a { color:#367ed2; text-decoration:none; font-size:14px; }
 
-table th{ background:#327dd0; color:#fff; padding:10px; text-align:left; border-right:1px solid #d6d6d6;}
+table th{ background:#327dd0; color:#fff; padding:10px; text-align:left; border-right:1px solid #1c6ec5; line-height:20px;}
 
 
 .searchBarDatafiles {float:left; margin:30px 0 0 0; padding:0px; }
@@ -844,6 +844,19 @@ border-radius: 4px; display:block;}
 .tableResponsive { margin:0px; padding:0px;}
 
 /*==============================================Dataset page ends here======================================================*/
+
+
+/*=============================================Partition page starts here===================================================*/
+
+
+.InnerTableSection { width:90%;  margin:0 auto;}
+.MainPageBg { background:#f5f5f5; padding:10px; border:1px solid #e9e9e9; margin:20px 0 0 0; height:650px; overflow-y:auto;}
+.MainPageBginner { background:#fff; margin:0px; padding:5px; border:1px solid #efefef;}
+.NOborder { border-top:none!important; margin-top:0px!important;}
+
+
+
+/*=============================================Partition page ends here===================================================*/
 
 
 /* #Media Queries

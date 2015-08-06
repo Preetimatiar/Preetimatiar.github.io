@@ -843,6 +843,8 @@ border-radius: 4px; display:block;}
 .searchButtonData a:hover { background:#dc3e00;}
 .tableResponsive { margin:0px; padding:0px;}
 
+.TableVerticle { width:100%; overflow-x:auto;}
+
 /*==============================================Dataset page ends here======================================================*/
 
 

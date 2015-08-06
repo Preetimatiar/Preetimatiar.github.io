@@ -9,6 +9,7 @@
 
 
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
 
 
 
@@ -656,12 +657,6 @@ form {
   text-indent: 3px;
 }
 
-h4:before {
-  padding-right: 0.3em;
-  margin-left: -2.8em;
-  content: "////";
-  color: #9ddcff;
-}
 
 #main-content h5 {
   margin-bottom: 8px;
@@ -670,12 +665,7 @@ h4:before {
   color: #474747;
   text-indent: 3px;
 }
-h5:before {
-  padding-right: 0.3em;
-  margin-left: -3.2em;
-  content: "/////";
-  color: #9ddcff;
-}
+
 
 #main-content h6 {
   margin-bottom: 8px;
@@ -843,8 +833,6 @@ border-radius: 4px; display:block;}
 .searchButtonData a:hover { background:#dc3e00;}
 .tableResponsive { margin:0px; padding:0px;}
 
-.TableVerticle { width:100%; overflow-x:auto;}
-
 /*==============================================Dataset page ends here======================================================*/
 
 
@@ -853,12 +841,47 @@ border-radius: 4px; display:block;}
 
 .InnerTableSection { width:90%;  margin:0 auto;}
 .MainPageBg { background:#f5f5f5; padding:10px; border:1px solid #e9e9e9; margin:20px 0 0 0;}
-.MainPageBginner { background:#fff; margin:0px; padding:5px; border:1px solid #efefef;}
+.MainPageBginner { background:#fff; margin:0px; padding:5px; border:1px solid #efefef; }
 .NOborder { border-top:none!important; margin-top:0px!important;}
 
+.TableVerticle { width:100%; overflow-x:auto;}
 
 
 /*=============================================Partition page ends here===================================================*/
+
+
+
+/*=============================================User Login sectio starts here=============================================*/
+.LoginBg { background:#337bd0;}
+.LoginArea { width:890px; background:#fff; margin:0 auto; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border:3px solid #d4e3f5; padding:10px 20px 18px 20px;; text-align:left;}
+.LoginArea h3 {font-family: 'Roboto', sans-serif!important; font-size:22px!important; color:#2c2c2c!important; margin:0px; padding:0px 0 10px 0; border-bottom:4px double #a3a3a3;}
+.Loginfiled { margin:8px 0 20px 0; padding:0px; }
+.Loginfiled .input3 {background:#fff; border:1px solid #cdcdcd; padding:5px;  width:377px; height:31px; -webkit-box-shadow: inset -1px 1px 5px 0px rgba(227,227,227,1);
+-moz-box-shadow: inset -1px 1px 5px 0px rgba(227,227,227,1);
+box-shadow: inset -1px 1px 5px 0px rgba(227,227,227,1);
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px; color:#6a6a6a; font-size:14px;}
+
+.LoginButton { margin:21px 41px 0 0; padding:0px; text-align:right;}
+.LoginButton a { background:#f34a08;  padding:8px 22px 7px; text-align:center; text-decoration:none; font-family: 'Droid Sans', sans-serif; font-size:16px; color: #fff; text-transform:uppercase; -webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px; }
+
+.LoginButton a:hover { background:#dc3e00;}
+
+.LeftsectionLogin { width:430px; float:left; margin:0px; padding:0px; border-right:4px double #a3a3a3;}
+.LeftsectionLogin h5 {  font-family: 'Raleway', sans-serif; font-size:20px!important; color: #ff3600!important; margin:0px; padding:14px 0 0 0; font-weight:500; text-transform:uppercase;} 
+.LeftsectionLogin h5 span { font-size:17px; color: #373737; text-transform:none;} 
+.SocialLogin { float:left; margin:5px 0 5px 0; padding:0px;}
+.SocialLogin  img { margin:0 3px 0 0;}
+
+.RightLoginsection { width:430px; float:right; margin:0px;}
+.RightLoginsection  h5 {  font-family: 'Raleway', sans-serif; font-size:20px!important; color: #ff3600!important; margin:0px; padding:14px 0 0 0; font-weight:500; text-transform:uppercase;} 
+.RightLoginsection h5 span { font-size:17px; color: #373737; text-transform:none;} 
+.chkbox {font-family: 'Droid Sans', sans-serif; font-size:14px; color: #646464; padding:0 0 0 3px; margin-top:-10px;}
+
+/*=============================================User Login sectio ends here=============================================*/
 
 
 /* #Media Queries
@@ -866,6 +889,16 @@ border-radius: 4px; display:block;}
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) { }
+
+@media only screen and (min-width: 960px) and (max-width: 1000px) {
+
+.LoginArea { width:95%; padding:10px 5px 18px;}
+.LeftsectionLogin { width:96%; border-bottom:4px double #a3a3a3; border-right:none; }
+.Loginfiled .input3 { width:96%;}
+.RightLoginsection { width:96%;  float:none;}
+.LoginButton { margin:20px 22px 26px 0; }
+
+}
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
@@ -910,6 +943,12 @@ header h1 { font-size:37px;}
 .searchBarDatafiles .input2 { width:97%;}
 .searchButtonData { float:none; margin:14px 0 0 0; width:99%;}
 .searchButtonData a { margin:0px;}
+.LoginArea { width:95%; padding:10px 5px 18px;}
+.LeftsectionLogin { width:91%; border-bottom:4px double #a3a3a3; border-right:none; }
+.Loginfiled .input3 { width:96%;}
+.RightLoginsection { width:91%;  float:none;}
+.LoginButton { margin:20px 22px 26px 0; text-align:center;}
+
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -990,6 +1029,12 @@ header h1 { font-size:37px;}
 .searchBarDatafiles .input2 { width:97%;}
 .searchButtonData { float:none; margin:14px 0 0 0;}
 .searchButtonData a { margin:0px;}
+.LoginArea { width:95%; padding:10px 5px 18px;}
+.LeftsectionLogin { width:91%; border-bottom:4px double #a3a3a3; border-right:none; text-align:center;}
+.Loginfiled .input3 { width:90%;}
+.RightLoginsection { width:95%; text-align:center; float:none;}
+.LoginButton { margin:20px 22px 26px 0; text-align:center;}
+
 
 }
 
@@ -1004,6 +1049,12 @@ header h1 { font-size:37px;}
 .searchBarDatafiles .input2 { width:97%;}
 .searchButtonData { float:none; margin:14px 0 0 0;}
 .searchButtonData a { margin:0px;}
+.LoginArea { width:95%; padding:10px 5px 18px;}
+.LeftsectionLogin { width:91%; border-bottom:4px double #a3a3a3; border-right:none; text-align:center;}
+.Loginfiled .input3 { width:90%;}
+.RightLoginsection { width:95%; text-align:center; float:none;}
+.LoginButton { margin:20px 22px 26px 0; text-align:center;}
+.LoginArea h3 { text-align:center;}
  }
 
 @media only screen and (max-width: 320px) {
@@ -1013,5 +1064,11 @@ header h1 { font-size:37px;}
 .searchBarDatafiles .input2 { width:97%;}
 .searchButtonData { float:none; margin:14px 0 0 0;}
 .searchButtonData a { margin:0px;}
+.LoginArea { width:95%; padding:10px 5px 18px;}
+.LeftsectionLogin { width:91%; border-bottom:4px double #a3a3a3; border-right:none; text-align:center;}
+.Loginfiled .input3 { width:90%;}
+.RightLoginsection { width:95%; text-align:center; float:none;}
+.LoginButton { margin:20px 22px 26px 0; text-align:center;}
+.LoginArea h3 { text-align:center;}
  }
 

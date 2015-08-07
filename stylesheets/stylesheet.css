@@ -948,6 +948,7 @@ header h1 { font-size:37px;}
 .Loginfiled .input3 { width:96%;}
 .RightLoginsection { width:91%;  float:none;}
 .LoginButton { margin:20px 22px 26px 0; text-align:center;}
+.tableResponsive { width:100%; overflow-x:auto;}
 
 }
 

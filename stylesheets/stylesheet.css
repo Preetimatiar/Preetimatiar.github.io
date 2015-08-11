@@ -912,6 +912,8 @@ table th {
 .tableResponsive {
 	margin:0px;
 	padding:0px;
+    overflow-x: auto;
+    width: 100%;
 }
 /*==============================================Dataset page ends here======================================================*/
 

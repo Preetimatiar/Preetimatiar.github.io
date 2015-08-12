@@ -912,8 +912,8 @@ table th {
 .tableResponsive {
 	margin:0px;
 	padding:0px;
-    overflow-x: auto;
-    width: 100%;
+	overflow-x: auto;
+	width: 100%;
 }
 /*==============================================Dataset page ends here======================================================*/
 
@@ -1187,9 +1187,79 @@ table th {
 .GoButton a:hover {
 	background:#dc3e00;
 }
-
-
 /*==========================================Search Input Data ends ==========================================*/
+
+
+/*=========================================Search Reslut page starts here===================================*/
+
+.SearchResult {
+	margin:0px 0 31px 0;
+	padding:11px;
+	border:1px solid #f2f2f2;
+}
+.gray {
+	background:#fafafa;
+}
+.SearchBgPadding {
+	padding:15px!important;
+}
+.SearchResult h2 {
+	font-family: 'Roboto', sans-serif!important;
+	font-size:22px!important;
+	color:#666666!important;
+	margin:0px;
+	padding:5px 0 12px 0;
+	border-bottom:1px dotted #e0e0e0;
+}
+.SearchResult h4 {
+	margin:0px;
+	padding:0px;
+	color:#666666!important;
+	font-size:16px!important;
+}
+.SearchResult h4 a {
+	color:#4988f1;
+	text-decoration:none;
+	margin:0px;
+	padding:0px;
+}
+.SearchResult p {
+	font-size:14px;
+	margin:0px;
+	padding:4px;
+	color:#7d7d7d;
+}
+.AllButtons {
+	margin:10px 0 0 0;
+	padding:15px 0 0 0;
+	border-top:1px dotted #e0e0e0
+}
+.stateButton {
+	background:#4b8cf8;
+	padding:5px 15px 5px 13px;
+	margin:0px 10px 0 0;
+	float:left;
+	color:#fff;
+}
+.countryButton {
+	background:#ff2b1b;
+	padding:5px 15px 5px 13px;
+	margin:0px 10px 0 0;
+	float:left;
+	color:#fff;
+}
+.yearsButton {
+	background:#082eeb;
+	padding:5px 15px 5px 13px;
+	margin:0px;
+	float:left;
+	color:#fff;
+}
+
+ 
+
+
+/*=========================================Search Reslut page ends here===================================*/
 
 
 
@@ -1242,7 +1312,7 @@ margin:20px 22px 26px 0;
  #main-content {
  width: 70%x;
 }
- #main-content h1:before,  #main-content h2:before,  #main-content h3:before,  #main-content h4:before,  #main-content h5:before,  #main-content h6:before {
+ #main-content h1:before, #main-content h2:before, #main-content h3:before, #main-content h4:before, #main-content h5:before, #main-content h6:before {
  padding-right: 0;
  margin-left: 0;
  content: none;
@@ -1353,7 +1423,7 @@ width:100%;
  display: inline;
  font-size: 13px;
 }
- #main-content,  aside#sidebar {
+ #main-content, aside#sidebar {
  float: none;
  width: 100% ! important;
 }
@@ -1367,7 +1437,7 @@ width:100%;
  aside#sidebar a.button {
  display: none;
 }
- #main-content h1:before,  #main-content h2:before,  #main-content h3:before,  #main-content h4:before,  #main-content h5:before,  #main-content h6:before {
+ #main-content h1:before, #main-content h2:before, #main-content h3:before, #main-content h4:before, #main-content h5:before, #main-content h6:before {
  padding-right: 0;
  margin-left: 0;
  content: none;

@@ -1338,7 +1338,7 @@ border-bottom-left-radius: 4px;}
 .InColor { background:#a93a37;}
 .ByColor { background:#ff2a1a;}
 .ToColor { background:#00f72c;}
-
+.DataContent h5 { display:none;} 
 /*========================================Version 2 ends here=============================*/
 
 
@@ -1673,6 +1673,14 @@ margin:8px 0 0 7px;
 	margin-bottom:0px!important;
 	display:block; 
 }
+.DataContent h5 {font-family: 'Droid Sans', sans-serif;
+	font-size:15px!important;
+	color: #646464;
+	padding:0px;
+	text-transform:uppercase;
+	margin:0px;
+	margin-bottom:0px!important;
+	display:block;}  
 .AboutTextField-new .input7 { width:94%;}
 .Fieldsection h4 span { color:#646464;}
 }
@@ -1749,6 +1757,14 @@ margin:8px 0 0 7px;
 	margin-bottom:0px!important;
 	display:block;
 }
+.DataContent h5 {font-family: 'Droid Sans', sans-serif;
+	font-size:15px!important;
+	color: #646464;
+	padding:0px;
+	text-transform:uppercase;
+	margin:0px;
+	margin-bottom:0px!important;
+	display:block;}  
 .Fieldsection h4 span { color:#646464;}
 .AboutTextField-new .input7 { width:94%;}
 }

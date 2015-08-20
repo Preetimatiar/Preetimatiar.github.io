@@ -1516,7 +1516,7 @@ background: #fff none repeat scroll 0 0;
   display: block;
   width: 11px;
   height: 11px;
-  background: url("close.png") 0 0 no-repeat;
+  background: url(../images/close.png) 0 0 no-repeat;
 }
 .text-core .text-wrap .text-tags .text-tag .text-button a.text-remove:hover {
   background-position: 0 -11px;

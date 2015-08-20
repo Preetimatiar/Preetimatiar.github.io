@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+<link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+<!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<title>Preetimatiar.GitHub.io by Preetimatiar</title>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="javascripts/textext.core.js"></script>
+<script charset="utf-8" type="text/javascript" src="javascripts/textext.plugin.tags.js"></script>
+</head>
+<body>
+<header>
+  <div class="topblack">
+    <ul>
+      <li><a href="#"><span>Ambry </span></a></li>
+      <li><a href="#">Search </a></li>
+      <li><a href="#">Datasets </a></li>
+      <li><a href="#">Collections </a></li>
+    </ul>
+    <div class="clearfix"></div>
+  </div>
+  <div class="inner">
+    <h1>Dataset Creator</h1>
+  </div>
+</header>
+<div id="content-wrapper">
+  <div class="inner clearfix">
+    <section id="main-content">
+      <!-- Data Serch Main Section starts here-->
+      <div class="DataSearchinput">
+        <!-- Maininnerbg Starts here-->
+        <div class="MainPageBginner">
+          <!-- Dataset Creator starts here-->
+          <div class="DatasetCreator">
+            <div class="spacer"></div>
+            <!--Dataset Field starts here-->
+            <div class="DatasetFiedMain">
+              <h4>Title :</h4>
+              <input type="text" class="input9" placeholder="Title Here">
+            </div>
+            <div class="clearfix"></div>
+            <!--Dataset Field ends here-->
+            <!--Dataset Field starts here-->
+            <div class="DatasetFiedMain">
+              <h4>summery :</h4>
+              <input type="text" class="input9" placeholder="Type Summery">
+            </div>
+            <div class="clearfix"></div>
+            <!--Dataset Field ends here-->
+            <!--Dataset Field starts here-->
+            <div class="DatasetFiedMain">
+              <h4>Description :</h4>
+              <textarea name="" cols="" rows="" class="DataTextArea" placeholder="Description"></textarea>
+            </div>
+            <div class="clearfix"></div>
+            <!--Dataset Field ends here-->
+            <!--Dataset Field starts here-->
+            <div class="DatasetFiedMain">
+              <h4>Documentation  :</h4>
+              <select name="" class="DataDropDown documentation-select">
+                <option value="MainPage">Main Page</option>
+                <option value="Download">Download</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="clearfix"></div>
+            <div class="DatasetFiedMain hidden-sections MainPage">
+              <h4>MainPage :</h4>
+              <textarea name="" cols="" rows="" class="DataTextArea" placeholder="Description"></textarea>
+            </div>
+            <div class="DatasetFiedMain hidden-sections Download">
+              <h4>Download :</h4>
+              <textarea name="" cols="" rows="" class="DataTextArea" placeholder="Description"></textarea>
+            </div>
+            <div class="DatasetFiedMain hidden-sections Other">
+              <h4>Other :</h4>
+              <textarea name="" cols="" rows="" class="DataTextArea"  placeholder="Description"></textarea>
+            </div>
+            <!--Dataset Field ends here-->
+            <div class="clearfix"></div>
+            <!--Dataset Field starts here-->
+            <div class="DatasetFiedMain">
+              <h4>Contact  :</h4>
+              <select name="" class="DataDropDownContact contact-select">
+                <option value="Wrangler">Data Wrangler</option>
+                <option value="Creator">Creator</option>
+              </select>
+              <div class="DataGroupAdd"><a href="#">Add</a></div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="DatasetFiedMain hidden-sections Wrangler">
+              <h4>Download :</h4>
+              <textarea name="" cols="" rows="" class="DataTextArea" placeholder="Description"></textarea>
+            </div>
+            <div class="clearfix"></div>
+            <div class="DatasetFiedMain hidden-sections Creator">
+              <h4>Download :</h4>
+              <textarea name="" cols="" rows="" class="DataTextArea" placeholder="Description"></textarea>
+            </div>
+            <div class="clearfix"></div>
+            <!--Dataset Field ends here-->
+            <!--Dataset Field starts here-->
+            <div class="DatasetFiedMain">
+              <h4>Coverage  :</h4>
+              <select name="" class="DataDropDownCoverage">
+                <option value="California">California</option>
+              </select>
+              <select name="" class="DataDropDownCoverage">
+                <option value="1993">1993</option>
+              </select>
+              <select name="" class="DataDropDownCoverage">
+                <option value="2013">2013</option>
+              </select>
+            </div>
+            <div class="clearfix"></div>
+            <!--Dataset Field ends here-->
+            <!--Dataset Field starts here-->
+            <div class="DatasetFiedMain">
+              <h4>Tags  :</h4>
+              <textarea id="textarea" class="example " rows="1"></textarea>
+            </div>
+            <div class="clearfix"></div>
+            <!--Dataset Field ends here-->
+            <!-- Go button starts here-->
+            <div class="DatasetGo"><a href="#">GO</a></div>
+            <!-- Go button ends here-->
+          </div>
+          <!-- Dataset Creator ends here-->
+          <div class="clearfix"></div>
+        </div>
+        <!--Maininnerbg Ends here-->
+      </div>
+      <!-- Data Serch Main Section ends here-->
+    </section>
+  </div>
+</div>
+<script>
+
+$('.documentation-select').on('change',function(){
+        if( $(this).val()==="MainPage"){
+        $(".MainPage").show()
+        }
+        else{
+        $(".MainPage").hide()
+        }
+		
+		if( $(this).val()==="Download"){
+        $(".Download").show()
+        }
+        else{
+        $(".Download").hide()
+        }
+		
+		if( $(this).val()==="Other"){
+        $(".Other").show()
+        }
+        else{
+        $(".Other").hide()
+        }
+    });
+	
+	
+	$('.contact-select').on('change',function(){
+        if( $(this).val()==="Wrangler"){
+        $(".Wrangler").show()
+        }
+        else{
+        $(".Wrangler").hide()
+        }
+		
+		if( $(this).val()==="Creator"){
+        $(".Creator").show()
+        }
+        else{
+        $(".Creator").hide()
+        }
+		
+		 	
+    });
+</script>
+<script type="text/javascript">
+    $('#textarea')
+        .textext({
+            plugins : 'tags autocomplete'
+        })
+        .bind('getSuggestions', function(e, data)
+        {
+            var list = [
+                    'Basic',
+                    'Closure',
+                    'Cobol',
+                    'Delphi',
+                    'Erlang',
+                    'Fortran',
+                    'Go',
+                    'Groovy',
+                    'Haskel',
+                    'Java',
+                    'JavaScript',
+                    'OCAML',
+                    'PHP',
+                    'Perl',
+                    'Python',
+                    'Ruby',
+                    'Scala'
+                ],
+                textext = $(e.target).textext()[0],
+                query = (data ? data.query : '') || ''
+                ;
+
+            $(this).trigger(
+                'setSuggestions',
+                { result : textext.itemManager().filter(list, query) }
+            );
+        })
+        ;
+</script>
+</body>
+</html>

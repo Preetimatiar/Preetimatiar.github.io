@@ -1,4 +1,4 @@
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+	/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
  * 1. Set default font family to sans-serif.
@@ -1342,6 +1342,190 @@ border-bottom-left-radius: 4px;}
 /*========================================Version 2 ends here=============================*/
 
 
+/*======================================Dataset Creator starts here=========================*/
+.DatasetCreator { width:80%; margin:0 auto; padding:0px;}
+.DatasetFiedMain { margin:14px 0 0 0; padding:0px;}
+.DatasetFiedMain h4 { font-size:15px!important; color:#0d0d0d!important; text-transform:uppercase; margin:0px 14px 0 0; padding:0px; float:left; width:20%; text-align:right;}
+.DatasetFiedMain .input9 {	background:#fff;
+	border:1px solid #cdcdcd;
+	padding:5px 5px 5px 10px;
+	width:60%;
+	height:31px;
+	-webkit-box-shadow: inset -1px 1px 5px 0px rgba(227, 227, 227, 1);
+	-moz-box-shadow: inset -1px 1px 5px 0px rgba(227, 227, 227, 1);
+	box-shadow: inset -1px 1px 5px 0px rgba(227, 227, 227, 1);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	color:#3e3e3e;
+	font-size:13px;
+	float:left; font:Arial, Helvetica, sans-serif; font-style:italic;}
+.DataTextArea { background:#fff;
+	border:1px solid #cdcdcd;
+	padding:5px 5px 5px 10px;
+	width:60%;
+	height:100px;
+	-webkit-box-shadow: inset -1px 1px 5px 0px rgba(227, 227, 227, 1);
+	-moz-box-shadow: inset -1px 1px 5px 0px rgba(227, 227, 227, 1);
+	box-shadow: inset -1px 1px 5px 0px rgba(227, 227, 227, 1);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	color:#3e3e3e;
+	font-size:13px;
+	float:left; font:Arial, Helvetica, sans-serif; font-style:italic;}
+	.hidden-sections{ display:none}
+	.example { width:230px; height:20px; float:right !important} 
+.DataDropDown {background:#fff;
+	border:1px solid #cdcdcd;
+	padding:5px 5px 5px 10px;
+	width:62%;
+	height:43px;
+	-webkit-box-shadow: inset -1px 1px 5px 0px rgba(227, 227, 227, 1);
+	-moz-box-shadow: inset -1px 1px 5px 0px rgba(227, 227, 227, 1);
+	box-shadow: inset -1px 1px 5px 0px rgba(227, 227, 227, 1);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	color:#3e3e3e;
+	font-size:13px;
+	float:left; font:Arial, Helvetica, sans-serif; font-style:italic;}
+	
+.DataDropDownContact {background:#fff;
+	border:1px solid #cdcdcd;
+	padding:5px 5px 5px 10px;
+	width:50%;
+	height:43px;
+	-webkit-box-shadow: inset -1px 1px 5px 0px rgba(227, 227, 227, 1);
+	-moz-box-shadow: inset -1px 1px 5px 0px rgba(227, 227, 227, 1);
+	box-shadow: inset -1px 1px 5px 0px rgba(227, 227, 227, 1);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	color:#3e3e3e;
+	font-size:13px;
+	float:left; font:Arial, Helvetica, sans-serif; font-style:italic;}
+.DataGroupAdd { background:#327acf; margin:0px 0 0 8px; padding:9px 0 9px 0; float:left; width:11%; text-align:center; -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;}
+.DataGroupAdd a {margin:0px; padding:0px;; text-decoration:none; color:#fff; font-size:16px; font-weight:bold;}
+.DataGroupAdd:hover  { background:#1555a0;}
+.DataDropDownCoverage {background:#fff;
+	border:1px solid #cdcdcd;
+	padding:5px 5px 5px 10px;
+	width:20%;
+	height:43px;
+	-webkit-box-shadow: inset -1px 1px 5px 0px rgba(227, 227, 227, 1);
+	-moz-box-shadow: inset -1px 1px 5px 0px rgba(227, 227, 227, 1);
+	box-shadow: inset -1px 1px 5px 0px rgba(227, 227, 227, 1);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	color:#3e3e3e;
+	font-size:13px;
+	float:left; font:Arial, Helvetica, sans-serif; font-style:italic;
+	margin:0 8px 0 0;}
+.DatasetGo { float:right; margin:26px 16% 24px 0; padding:0px; }
+.DatasetGo a { background:#ff2a1a; margin:0px; padding:10px 27px 10px 27px; font-size:18px; font-weight:bold; color:#fff; text-transform:uppercase; -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;}
+	
+.DatasetGo a:hover { background:#cc1002;}
+.spacer { height:30px;}
+
+/*======================================Dataset Creator ends here=========================*/
+
+
+
+/*==============================================TAGS CSS================================*/
+
+
+.text-core {
+  position: relative;
+  float:left;
+  width:62%
+}
+.text-core .text-wrap {
+  background: #fff;
+  position:relative;
+  width:100% !important
+}
+.text-core .text-wrap textarea,
+.text-core .text-wrap input {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ 
+  outline: none;
+  resize: none;
+  position: absolute;
+ font-size:13px;
+
+background: #fff none repeat scroll 0 0;
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+    box-shadow: -1px 1px 5px 0 rgba(227, 227, 227, 1) inset;
+    color: #3e3e3e;
+
+   
+    font-style: italic;
+    height: 43px; line-height:34px;
+    padding: 5px 5px 5px 10px;
+    width: 100% !important;
+
+}
+
+.text-core .text-wrap .text-tags {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 3px 35px 3px 3px;
+  cursor: text;
+}
+.text-core .text-wrap .text-tags.text-tags-on-top {
+  z-index: 2;
+}
+.text-core .text-wrap .text-tags .text-tag {
+  float: left;
+}
+.text-core .text-wrap .text-tags .text-tag .text-button {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  border: 1px solid #9daccc;
+  background: #e2e6f0;
+  color: #000;
+  padding: 5px 20px 5px 8px;
+  margin: 0 2px 2px 0;
+  cursor: pointer;
+ 
+  
+}
+.text-core .text-wrap .text-tags .text-tag .text-button a.text-remove {
+  position: absolute;
+  right: 3px;
+  top: 10px;
+  display: block;
+  width: 11px;
+  height: 11px;
+  background: url("close.png") 0 0 no-repeat;
+}
+.text-core .text-wrap .text-tags .text-tag .text-button a.text-remove:hover {
+  background-position: 0 -11px;
+}
+.text-core .text-wrap .text-tags .text-tag .text-button a.text-remove:active {
+  background-position: 0 -22px;
+}
+
+/*==============================================TAGS CSS end================================*/
 
 /* #Media Queries
 ================================================== */
@@ -1593,6 +1777,7 @@ width:100%;
 .Chkbx {
 margin:8px 0 0 7px;
 }
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -1683,6 +1868,16 @@ margin:8px 0 0 7px;
 	display:block;}  
 .AboutTextField-new .input7 { width:94%;}
 .Fieldsection h4 span { color:#646464;}
+.DatasetFiedMain h4 { float:none; text-align:left; width:75%;}
+.DatasetCreator { width:100%;}
+.DatasetFiedMain .input9 { width:92%;}
+.DataTextArea { width:92%;}
+.DataDropDown { width:98%;}
+.DataDropDownContact { width:98%;}
+.DataGroupAdd { width:40%; margin:8px 0 0 0; }
+.DataDropDownCoverage { width:98%; margin:8px 0 0 0; float:none;}
+.text-core { width:98%;!important}
+.text-core .text-wrap .text-tags .text-tag .text-button { padding:2px 19px 5px 5px;}
 }
  @media only screen and (max-width: 320px) {
 .topblack ul li a {
@@ -1767,4 +1962,16 @@ margin:8px 0 0 7px;
 	display:block;}  
 .Fieldsection h4 span { color:#646464;}
 .AboutTextField-new .input7 { width:94%;}
+
+.DatasetFiedMain h4 { float:none; text-align:left; width:75%;}
+.DatasetCreator { width:100%;}
+.DatasetFiedMain .input9 { width:92%;}
+.DataTextArea { width:92%;}
+.DataDropDown { width:98%;}
+.DataDropDownContact { width:98%;}
+.DataGroupAdd { width:40%; margin:8px 0 0 0; }
+.DataDropDownCoverage { width:98%; margin:8px 0 0 0; float:none;}
+.text-core { width:98%;!important}
+.text-core .text-wrap .text-tags .text-tag .text-button { padding:2px 19px 5px 5px;}
+
 }

@@ -825,6 +825,14 @@ footer a:hover {
 	border-top:1px dotted #c0c0c0;
 	border-bottom:1px dotted #c0c0c0;
 }
+.LeftContentsec { margin:0px; padding:0px; float:left;}
+.LeftContentsec h3 {	font-size:25px!important;
+	color:#383838;
+	font-family: 'Droid Sans', sans-serif;
+	margin:0px;
+	padding:10px 0 10px 0;
+	border-top:1px dotted #c0c0c0;
+	border-bottom:1px dotted #c0c0c0;}
 .TabsContentSection h3 span {
 	color:#3177cc;
 }
@@ -940,6 +948,11 @@ table th {
 .NOborder {
 	border-top:none!important;
 	margin-top:0px!important;
+}
+.NOborderBottom {
+	border-top:none!important;
+	margin-top:0px!important;
+	border-bottom:none!important;
 }
 .TableVerticle {
 	width:100%;
@@ -1524,7 +1537,58 @@ background: #fff none repeat scroll 0 0;
 .text-core .text-wrap .text-tags .text-tag .text-button a.text-remove:active {
   background-position: 0 -22px;
 }
+.TableButtons { float:right; margin:19px 9px 0 0; padding:0px;}
+.NewTableButton { float:left; margin:0px; padding:0px;}
+.NewTableButton a {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fe655a+0,e64033+100 */
+background: #fe655a; /* Old browsers */
+background: -moz-linear-gradient(top,  #fe655a 0%, #e64033 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fe655a), color-stop(100%,#e64033)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #fe655a 0%,#e64033 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #fe655a 0%,#e64033 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #fe655a 0%,#e64033 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #fe655a 0%,#e64033 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe655a', endColorstr='#e64033',GradientType=0 ); border:1px solid #e77474; padding:11px 20px 11px 20px; font-size:14px; text-decoration:none; color:#fff; text-transform:uppercase;-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px; /* IE6-9 */
+ }
+ .NewTableButton a:hover {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e53f32+0,ff665a+100 */
+background: #e53f32; /* Old browsers */
+background: -moz-linear-gradient(top,  #e53f32 0%, #ff665a 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e53f32), color-stop(100%,#ff665a)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #e53f32 0%,#ff665a 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #e53f32 0%,#ff665a 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #e53f32 0%,#ff665a 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #e53f32 0%,#ff665a 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e53f32', endColorstr='#ff665a',GradientType=0 ); /* IE6-9 */
+}
+.GrayButtonTable { float:left; margin:0px 0 0 10px; padding:0px;}
+.GrayButtonTable a { /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5f5f5+0,e0e0e0+100 */
+background: #f5f5f5; /* Old browsers */
+background: -moz-linear-gradient(top,  #f5f5f5 0%, #e0e0e0 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#e0e0e0)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f5f5f5 0%,#e0e0e0 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f5f5f5 0%,#e0e0e0 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f5f5f5 0%,#e0e0e0 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f5f5f5 0%,#e0e0e0 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e0e0e0',GradientType=0 ) ; 
+padding:11px 20px 11px 20px; font-size:14px; text-decoration:none; color:#4f4f4f; text-transform:uppercase; border:1px solid #c4c4c4;-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px; /* IE6-9 */
+}
+.GrayButtonTable a:hover {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dfdfdf+0,f5f5f5+100 */
+background: #dfdfdf; /* Old browsers */
+background: -moz-linear-gradient(top,  #dfdfdf 0%, #f5f5f5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dfdfdf), color-stop(100%,#f5f5f5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #dfdfdf 0%,#f5f5f5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #dfdfdf 0%,#f5f5f5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #dfdfdf 0%,#f5f5f5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #dfdfdf 0%,#f5f5f5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfdfdf', endColorstr='#f5f5f5',GradientType=0 ); /* IE6-9 */
+}
 
+.TableFooter { background:#383838 ; padding:10px 0 10px 0; text-align:center; margin:60px 0 0 0;}
+.TableFooter a { font-size:14px; color:#fff; font-weight:normal; margin:0px 0 0 32px; padding:0px; text-decoration:none;}
+.TableFooter a:hover { color:#0099ff;}
 /*==============================================TAGS CSS end================================*/
 
 /* #Media Queries
@@ -1777,7 +1841,11 @@ width:100%;
 .Chkbx {
 margin:8px 0 0 7px;
 }
-
+.TableButtons { float:none; clear:both;}
+.NewTableButton { float:none;}
+.NewTableButton a {display:block; padding:11px 0 11px 0; width:100%; text-align:center;}
+.GrayButtonTable { float:none; margin:10px 0 10px 0;}
+.GrayButtonTable a {display:block; padding:11px 0 11px 0; width:100%; text-align:center; margin:0px;}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -1878,6 +1946,12 @@ margin:8px 0 0 7px;
 .DataDropDownCoverage { width:98%; margin:8px 0 0 0; float:none;}
 .text-core { width:98%;!important}
 .text-core .text-wrap .text-tags .text-tag .text-button { padding:2px 19px 5px 5px;}
+.TableButtons { float:none; clear:both;}
+.NewTableButton { float:none;}
+.NewTableButton a {display:block; padding:11px 0 11px 0; width:100%; text-align:center;}
+.GrayButtonTable { float:none; margin:10px 0 10px 0;}
+.GrayButtonTable a {display:block; padding:11px 0 11px 0; width:100%; text-align:center; margin:0px;}
+.TableFooter a { font-size:14px; color:#fff; font-weight:normal; margin:0px 0 0 20px; padding:0px; text-decoration:none;} 
 }
  @media only screen and (max-width: 320px) {
 .topblack ul li a {
@@ -1973,5 +2047,10 @@ margin:8px 0 0 7px;
 .DataDropDownCoverage { width:98%; margin:8px 0 0 0; float:none;}
 .text-core { width:98%;!important}
 .text-core .text-wrap .text-tags .text-tag .text-button { padding:2px 19px 5px 5px;}
-
+.TableButtons { float:none; clear:both;}
+.NewTableButton { float:none;}
+.NewTableButton a {display:block; padding:11px 0 11px 0; width:100%; text-align:center;}
+.GrayButtonTable { float:none; margin:10px 0 10px 0;}
+.GrayButtonTable a {display:block; padding:11px 0 11px 0; width:100%; text-align:center; margin:0px;}
+.TableFooter a { font-size:14px; color:#fff; font-weight:normal; margin:0px 0 0 20px; padding:0px; text-decoration:none;} 
 }

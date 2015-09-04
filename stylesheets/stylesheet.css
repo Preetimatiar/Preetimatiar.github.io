@@ -771,6 +771,7 @@ footer a:hover {
 	color:#383838;
 	margin:-28px 0 0 0;
 	padding:0px;
+	
 }
 .DatasetHeadstyle h2 span {
 	text-transform:uppercase;
@@ -798,6 +799,7 @@ footer a:hover {
 	margin: 30px 0 0;
 	padding: 25px;
 }
+.margin { margin:0px!important; border:none!important;}
 .responsive-tabs__panel {
 	margin-top:-1px!important;
 	padding:7px!important;
@@ -878,6 +880,9 @@ table th {
 	border-right:1px solid #1c6ec5;
 	line-height:20px;
 }
+
+
+
 .searchBarDatafiles {
 	float:left;
 	margin:30px 0 0 0;
@@ -1648,6 +1653,7 @@ float:none;
 .LoginButton {
 margin:20px 22px 26px 0;
 }
+.vertical-tabs .responsive-tabs__panel { float:none!important; width:98%!important;}
 }
  @media only screen and (min-width: 768px) and (max-width: 959px) {
 }
@@ -1737,6 +1743,7 @@ overflow-x:auto;
 float:none;
 width:100%;
 }
+.vertical-tabs .responsive-tabs__panel { float:none!important; width:98%!important;}
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -1877,6 +1884,7 @@ margin:8px 0 0 7px;
 .GrayButtonTable a {display:block; padding:11px 0 11px 0; width:100%; text-align:center; margin:0px;}
 .BlueButtonTable {float:none; margin:10px 0 10px 0;}
 .BlueButtonTable a {display:block; padding:11px 0 11px 0; width:100%; text-align:center; margin:0px;}
+.vertical-tabs .responsive-tabs__panel { float:none!important; width:93%!important;}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -1985,6 +1993,7 @@ margin:8px 0 0 7px;
 .BlueButtonTable {float:none; margin:10px 0 10px 0;}
 .BlueButtonTable a {display:block; padding:11px 0 11px 0; width:100%; text-align:center; margin:0px;}
 .TableFooter a { font-size:14px; color:#fff; font-weight:normal; margin:0px 0 0 20px; padding:0px; text-decoration:none;} 
+.vertical-tabs .responsive-tabs__panel { float:none!important; width:93%!important;}
 }
  @media only screen and (max-width: 320px) {
 .topblack ul li a {
@@ -2089,4 +2098,5 @@ margin:8px 0 0 7px;
 .BlueButtonTable a {display:block; padding:11px 0 11px 0; width:100%; text-align:center; margin:0px;}
 
 .TableFooter a { font-size:14px; color:#fff; font-weight:normal; margin:0px 0 0 20px; padding:0px; text-decoration:none;} 
+.vertical-tabs .responsive-tabs__panel { float:none!important; width:93%!important;}
 }

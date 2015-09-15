@@ -7,7 +7,8 @@
 <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
 <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-
+<link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+<link rel="stylesheet" href="stylesheets/responsive-tabs.css">
 <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -44,11 +45,11 @@
   <!-- Tabler SECTION starts here-->
   <div class="TablerSection">
     <!-- TAB CODE starts here-->
-    <div class="Innertabler">
+    <div class="responsive-tabs">
       <h2>About</h2>
-
+      <div class="Tabsinner">
         <!-- About Section starts here-->
-        <div class="tabshead">
+        <div class="TabsContentSection">
           <h3><span>External</span> Documentation</h3>
           <!-- Table section starts here-->
           
@@ -73,14 +74,7 @@
           </table>
           
           </div>
-          </div>
-          </div>
           
-          
-          
-          <div class="Innertabler">
-           <div class="tabshead">
-           
           <h3>Contacts</h3>
           <!-- Table section starts here-->
           
@@ -96,48 +90,16 @@
             </tr>
           </table>
           </div>
-          </div>
-          </div>
-          
-           <div class="Innertabler">
-           <div class="tabshead">
           
           <h3>2012 SMART BRFSS County Data and Documentation</h3>
           <p>The Selected Metropolitan/Micropolitan Area Risk Trends (SMART) project uses the Behavioral Risk Factor Surveillance System (BRFSS) to analyze the data of selected metropolitan and micropolitan statistical areas (MMSAs) with 500 or more respondents. BRFSS data can be used to identify emerging health problems, establish and track health objectives, and develop and evaluate public health policies and programs.</p>
-          
-          </div>
-          </div>
-          
-          
-           <div class="Innertabler">
-           <div class="tabshead">
           <h3>Data Conversion</h3>
           <p>This conversion of the BRFSS County data converts the PERIOD '.' character in the ASCII file to a NULL.</p>
-          </div>
-          </div>
-          
-          
-          <div class="Innertabler">
-           <div class="tabshead">
           <h3>Errors</h3>
           <p>One record, seqno == 2012001899, has an illegal value for mrace, of '9 8 '. The record has been retained, but with the mrace value set to NULL. </p>
-          </div>
-          </div>
-          
-          
-           <div class="Innertabler">
-           <div class="tabshead">
           <h3>Caveats</h3>
           <p>The county data is based on the BRFSS MSSA structure, and the BRFSS is based on a sample of the population, so not all counties have data. As noted in the dataset FAQ, <a href="http://www.cdc.gov/brfss/smart/smart_faq.htm#5" target="_blank">some counties did not have enough responses in all of the sample classes</a> to produce an estimate for the county. </p>
-          </div>
-          </div>
-          
-          
-           <div class="Innertabler M-Bootom">
-           <div class="tabshead">
           <h3>Sources</h3>
-          
-
             <div class="tableResponsive">
           <table  border="0" cellpadding="0" cellspacing="0">
             <tr>
@@ -157,13 +119,108 @@
             </tr>
           </table>
           </div>
-          </div>
-          </div>
           <!-- Table section ends here-->
-    
+        </div>
         <!-- About Section ends here-->
-    
-    
+      </div>
+      <!-- Data Files section starts here-->
+      <h2>Data files</h2>
+      <div class="Tabsinner">
+        <div class="TabsContentSection">
+          <h3>Data Files</h3>
+        </div>
+        <!-- section bar starts here-->
+        <div class="searchBarDatafiles">
+          <input type="text" class="input2">
+        </div>
+        <div class="searchButtonData"><a href="#">Search</a></div>
+        <!-- section bar ends here-->
+        <div class="clearfix"></div>
+        <!-- table section starts here-->
+        
+          <div class="tableResponsive">
+        <table  border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <th>id</th>
+            <th>Name</th>
+            <th>Table</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td><a href="http://data.civicknowledge.com/bundles/d03G004/partitions/p03G001004.html" target="_blank">p03G001004</a></td>
+            <td>cdc.gov-brfss-county-brfss_county</td>
+            <td>brfss_county</td>
+            <td>2012 BRFSS County</td>
+          </tr>
+        </table>
+        </div>
+        <!-- table section ends here-->
+        <div class="clearfix"></div>
+      </div>
+      <!-- Data Files section ends here-->
+      <!-- Tables starting starts here-->
+      <h2>Tables</h2>
+      <div class="Tabsinner">
+        <div class="TabsContentSection">
+          <h3>Tables</h3>
+        </div>
+        <!-- table section starts here-->
+          <div class="tableResponsive">
+        <table  border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <th>id</th>
+            <th>Name</th>
+            <th>Table</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td><a href="http://data.civicknowledge.com/bundles/d03G004/partitions/p03G001004.html" target="_blank">p03G001004</a></td>
+            <td>cdc.gov-brfss-county-brfss_county</td>
+            <td>brfss_county</td>
+            <td>2012 BRFSS County</td>
+          </tr>
+        </table>
+        </div>
+        <!-- table section ends here-->
+      </div>
+      <!-- Tables starting Ends here-->
+      <!-- Public Class starts here-->
+      <h2>Build</h2>
+      <div class="Tabsinner">
+        <!-- table section starts here-->
+        <div class="TabsContentSection">
+          <h3>Build Information</h3>
+            <div class="tableResponsive">
+          <table  border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td>Build Date</td>
+              <td>2015-04-30T15:39:59.601932</td>
+            </tr>
+            <tr>
+              <td>Build Time</td>
+              <td>2 minutes ( 142.001211166 s)</td>
+            </tr>
+          </table>
+          </div>
+          <h3>Dependencies</h3>
+           <div class="tableResponsive">
+          <table  border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td>Key</td>
+              <td>As Declared</td>
+              <td>As Resolved</td>
+            </tr>
+            <tr>
+              <td>counties</td>
+              <td>census.gov-index-counties</td>
+              <td><a href="http://data.civicknowledge.com/bundles/d03x003/partitions/p03x002003.html" target="_blank">census.gov-index-counties-0.0.3</a></td>
+            </tr>
+          </table>
+          </div>
+        </div>
+        <!-- table section ends here-->
+      </div>
+      <!-- Public Class ends here-->
     </div>
     <!-- Tabler SECTION ends here-->
     </section>
@@ -171,21 +228,12 @@
 
   </div>
 </div>
-<!-- Footer starts here-->
-	<div class="TableFooter">
-        <a href="Datafile.html">Datafile</a>
-        <a href="Data-Search-version1.html">Data-Search</a>
-        <a href="Dataset.html">Dataset</a>
-    	<a href="Dataset-creator.html">Dataset About</a>
-        <a href="Source.html">Sources</a>
-        <a href="Tables.html">Tables</a>
-        <a href="Partition.html">Partition</a>
-        <a href="Sample.html">Sample</a>
-        <a href="Search-Result.html">Search-Result</a>
-        <a href="User-login.html">Login</a>
-        
-    </div>
-<!-- Footer ends here-->
-
+<script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+<script src="javascripts/responsiveTabs.js"></script>
+<script>
+$(document).ready(function() {
+	RESPONSIVEUI.responsiveTabs();
+})
+</script>
 </body>
 </html>

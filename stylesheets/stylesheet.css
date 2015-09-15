@@ -909,7 +909,7 @@ table th {
 .searchButtonData a {
 	background:#f34a08;
 	margin:0px 0 0 15px;
-	padding:11px 39px 9px 44px;
+	padding:11px 34px 9px 34px;
 	text-align:center;
 	text-decoration:none;
 	font-family: 'Droid Sans', sans-serif;
@@ -1620,10 +1620,41 @@ background: linear-gradient(to bottom,  #4184d2 0%,#67adff 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4184d2', endColorstr='#67adff',GradientType=0 ); /* IE6-9 */
 }
 
-.TableFooter { background:#383838 ; padding:10px 0 10px 0; text-align:center; margin:60px 0 0 0;}
+.TableFooter { background:#383838 ; padding:19px 0 17px 0; text-align:center; margin:60px 0 0 0; border-bottom:3px solid #327dd0;}
 .TableFooter a { font-size:14px; color:#fff; font-weight:normal; margin:0px 0 0 32px; padding:0px; text-decoration:none;}
 .TableFooter a:hover { color:#0099ff;}
 /*==============================================TAGS CSS end================================*/
+
+/*=============================================New DatsSet settings starts here============================*/
+
+.Innertabler { background:#fff; margin:0px 0 24px 0; padding:12px 12px 15px 12px; border:1px solid #e8e8e8; 	
+
+ -moz-box-shadow:inset 0 0 10px #e0e0e0;
+   -webkit-box-shadow: inset 0 0 10px #e0e0e0;
+   box-shadow:         inset 0 0 10px #e0e0e0;
+			
+			}
+.Innertabler h2 {font-family: "Droid Sans",sans-serif; font-size:22px!important; color:#3177cc!important; margin:0px!important; text-transform:uppercase; padding:0px 0 7px 0; border-bottom: 1px dotted #c0c0c0; }
+.tabshead { margin:0px; padding:0px;}
+.tabshead h3{ border-bottom: 1px dotted #c0c0c0;
+   
+    color: #383838;
+    font-family: "Droid Sans",sans-serif;
+    font-size: 21px !important;
+    margin: 6px 0 0 0!important;
+    padding: 0px 0px 7px 0;}
+
+
+.tabshead p{  color: #606060;
+    font-family: "Droid Sans",sans-serif !important;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0;
+    padding: 14px 0 0px 0;}
+.M-Bootom { margin:0px!important; }
+/*=============================================New DatsSet settings ends here==============================*/
+
 
 /* #Media Queries
 ================================================== */

@@ -881,6 +881,9 @@ table th {
 	line-height:20px;
 }
 
+table tr:nth-child(2n+0) td:first-child { background:#d9ebfe;}
+
+
 
 
 .searchBarDatafiles {
@@ -1623,6 +1626,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4184d2', end
 .TableFooter { background:#383838 ; padding:19px 0 17px 0; text-align:center; margin:60px 0 0 0; border-bottom:3px solid #327dd0;}
 .TableFooter a { font-size:14px; color:#fff; font-weight:normal; margin:0px 0 0 32px; padding:0px; text-decoration:none;}
 .TableFooter a:hover { color:#0099ff;}
+.MarginBottom { margin-bottom:0px!important; border-left:4px solid #77e62c;}
+.spacebottom { margin:0 0 13px 0!important;}
+
 /*==============================================TAGS CSS end================================*/
 
 /*=============================================New DatsSet settings starts here============================*/
